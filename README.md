@@ -49,7 +49,4 @@ This project applies **Multiple Correspondence Analysis (MCA)** to summarize and
 - `FactoMineR`, `factoextra`, `tidyverse`
 - (Optional) `ggplot2` for custom visualizations
 
----
-
-## 📁 Repository Structure
 
