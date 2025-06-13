@@ -1,52 +1,15 @@
-# 📊 Multiple Correspondence Analysis (MCA) on Categorical Data
+# Analyse de correspondance multiple et Arbre de decision
+## Description
+Ce répertoire contient un projet d'analyse des données de laboratoire concernant les infections virales, avec l'utilisation de techniques comme l'Analyse des Correspondances Multiples (ACM) et les arbres de décision en R.
 
-This project applies **Multiple Correspondence Analysis (MCA)** to summarize and visualize a dataset where individuals are described by **qualitative (categorical) variables**.
+## Contenu
+- TBL_ARBO.xlsx : Fichier Excel avec les données des tests sérologiques et moléculaires.
+- Script d'Analyse (analyse_labo.Rmd) : Script pour charger, recoder et analyser les données.
+Recode des variables : Conversion des colonnes en facteurs et dates.
+Visualisation : Graphiques pour la distribution des résultats.
+ACM et Arbres de Décision : Analyse des relations entre variables.
 
----
-
-## 🎯 Objectives
-
-- Explore similarities between individuals based on their categorical profiles.
-- Identify and visualize **associations between variable modalities**.
-- Reduce the complexity of multidimensional qualitative data.
-- Detect **latent patterns** and **individual profiles** across multiple variables.
-
----
-
-## 🧪 Dataset
-
-- **Type**: Survey or observation data with categorical variables
-- **Format**: Individuals × qualitative variables
-- **Goal**: Explore associations and profiles
-
----
-
-## 🧭 Analysis Workflow
-
-### 1. 🗂️ Data Preparation
-- Encode categorical variables as factors
-- Handle missing or rare modalities
-
-### 2. 🔎 Applying MCA
-- Perform Multiple Correspondence Analysis using `FactoMineR`
-- Extract eigenvalues, inertia, and principal dimensions
-
-### 3. 📈 Visualizations
-- Plot individuals and modalities on the first two dimensions
-- Color by groups or clusters if applicable
-- Highlight strong associations and proximity between points
-
-### 4. 🧠 Interpretation
-- Identify groups of similar individuals (profiles)
-- Detect clusters of associated categories (modalities)
-- Understand the structure and dimensionality of the data
-
----
-
-## 🛠️ Tools & Libraries
-
-- `R`
-- `FactoMineR`, `factoextra`, `tidyverse`
-- (Optional) `ggplot2` for custom visualizations
-
-
+## Étapes de l'Analyse
+- Chargement et préparation des données : Chargement du fichier Excel et recodage des variables.
+- Analyse : ACM sur les variables ARN, visualisation des relations, arbres de décision.
+- Résultats : Graphiques et analyse des relations entre les variables.
